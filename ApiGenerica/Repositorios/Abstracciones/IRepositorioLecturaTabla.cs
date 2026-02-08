@@ -48,5 +48,7 @@ namespace ApiGenerica.Repositorios.Abtracciones
             string CampoContraseña,
             string ValorUsuario
         );
+
+        Task<Dictionary<string, object?>> ObtenerDiagnosticoConexionAsync();
     }
 }
